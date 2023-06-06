@@ -1,4 +1,3 @@
-/* eslint-disable no-param-reassign */
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
 export const getAllGreetings = createAsyncThunk('greeting', async () => {
